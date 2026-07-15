@@ -42,5 +42,16 @@ print("="*80)
 
 comparison = compare_files(all_files[id1], all_files[id2])
 
-for name, status in comparison:
-    print(f"{name:<30} {status}")
+# Opção 2: Loop manual para compatibilidade
+print("\n" + "="*80)
+print("RESULTADO DA COMPARAÇÃO")
+print("="*80)
+print(f"{'Função':<30} {'Status':<45}")
+print("-"*75)
+
+for item in comparison:
+    name = item['name']
+    status = item['status']
+    print(f"{name:<30} {status:<45}")
+
+print("="*80)
