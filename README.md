@@ -43,13 +43,7 @@ DJacobiP                       ( 37 linhas)
        - DPn1
        - Pn0
        - Pn1
-       - Pn2
-       - a1n
-       - a2n
-       - a3n
-       - a4n
-       - alpha
-       - b1n
+        ...
        - b2n
        - b3n
        - beta
@@ -88,21 +82,7 @@ DLiftMatrix                    ✅ Idêntica (Hash+AST)
 DMatrix1D                      ✅ Idêntica (Hash+AST)                        
 DflipLiftMatrix                ✅ Idêntica (Hash+AST)                        
 Euler                          ✅ Idêntica (Hash+AST)                        
-FluxProjection                 ✅ Idêntica (Hash+AST)                        
-Grad2SitffMatrix               ✅ Idêntica (Hash+AST)                        
-IC                             ✅ Idêntica (Hash+AST)                        
-JacobiGaussQuad                ✅ Idêntica (Hash+AST)                        
-JacobiGaussWeights             ✅ Idêntica (Hash+AST)                        
-JacobiP                        ✅ Idêntica (Hash+AST)                        
-JacobiRoots                    ✅ Idêntica (Hash+AST)                        
-Jacobian                       ✅ Idêntica (Hash+AST)                        
-LegendreBasis                  ✅ Idêntica (Hash+AST)                        
-Lh                             ⚠️ Hash diferente, AST igual                 
-LiftMatrix                     ✅ Idêntica (Hash+AST)                        
-MeshGen1D                      ✅ Idêntica (Hash+AST)                        
-Periodic                       ✅ Idêntica (Hash+AST)                        
-RK4                            ✅ Idêntica (Hash+AST)                        
-RKSSP104                       ✅ Idêntica (Hash+AST)                        
+...                                         
 RKSSP54                        ✅ Idêntica (Hash+AST)                        
 StiffMatrix                    ✅ Idêntica (Hash+AST)                        
 Timestep                       ✅ Idêntica (Hash+AST)                        
@@ -165,6 +145,8 @@ Traffic-Flow-1D-Modal-Sub-cell-s     ≈     ✓     ≈     ≈     ≠     ✓
 --------------------------------------------------------------------------------
 
 📊 Deseja gerar o heatmap? [y/n]: y
-
-
 ```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Paulo-de-Souza/Comparador_Funcoes/main/imagens/heatmap_epscompactsmoother_20260718_130649.png" alt = "Exemplo de heatmap" width="500"><br>
+  <em>Exemplo de heatmap</em>
+</div>
